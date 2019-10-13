@@ -26,5 +26,15 @@ module.exports = {
     package: 'egg-swagger-doc',
   },
       
+  tx: {
+    enable: true,
+    package: 'egg-tx',
+  },
+      
+  sequelize: {
+    enable: true,
+    package: 'egg-sequelize',
+  },
+      
 
 };

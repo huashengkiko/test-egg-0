@@ -18,7 +18,10 @@
     "deepexi-onerror": "^0.2.0",
     "@taccisum/egg-utils": "^0.1.0",
     "@taccisum/egg-eureka": "^1.0.1",
-    "egg-swagger-doc": "^2.3.1"
+    "egg-swagger-doc": "^2.3.1",
+    "egg-tx": "^1.0.2",
+    "egg-sequelize": "^4.1.0",
+    "mysql2": "1.6.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",

@@ -123,6 +123,26 @@ module.exports = appInfo => {
     routerMap: false,
   };
     
+  config.tx = {
+    reqAction: ['POST','PUT','DELETE'], 
+    dbType: 'mysql',
+  };    
+    
+  config.sequelize = {
+    dialect: 'mysql',
+    // database: 'your_db',
+    // host: '127.0.0.1',
+    port: '3306',
+    username: 'root',
+    // password: 'your_password',
+    pool: {
+      max: 8,
+      min: 0,
+      idle: 10000,
+    },
+    timezone: '+08:00',
+  };
+      
 
   return {
     ...config,
