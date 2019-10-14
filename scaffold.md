@@ -9,7 +9,7 @@
 **工具版本**: v1.13.0
 **node版本**: v10.13.0
 **yeoman版本**: v2.0.6
-**生成时间**: 2019-10-13 03:56:50
+**生成时间**: 2019-10-14 03:28:46
 **生成方式**: 命令模式
 **生成参数**: {"orgName":"","projectName":"","author":"","router":"default","db":"mongo","configservice":"none","apm":"none","swServers":"localhost:11800","mode":"command","version":"1.13.0","conditions":{"default-router":true},"dependencies":{"utils":true,"eureka":true,"swagger":true,"tx":true}}
 **生成命令**: yo generator-deepexi-eggjs -c --orgName= --projectName= --author= --router=default --db=mongo --configservice=none --apm=none --swServers=localhost:11800
